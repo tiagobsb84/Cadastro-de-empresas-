@@ -1,6 +1,7 @@
+
 @media (max-width: 900px) {
     #page-home {
-        background-position: 75vw;
+        background-position-x: 70vw;
     }
 
     #page-home .content {
@@ -11,13 +12,22 @@
     #page-home header a {
         position: absolute;
         bottom: 48px;
+
         left: 50%;
-        transform: translateX(-50%)
+        transform: translatex(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
     }
 }
 
-@media (min-width: 1700px) {
-    #page-home { 
+@media (min-width: 1700px){
+    #page-home {
         background-position: 40vw;
     }
 }
